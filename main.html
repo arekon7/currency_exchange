@@ -1,0 +1,57 @@
+<html>
+  <head>
+    
+    <link href="./main_css.css" rel="stylesheet" title="stylesheet" type="text/css" />
+    <script src="./jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="./jquery-cookie/jquery.cookie.js"></script>
+  </head>
+<body>
+    
+    <div id="wrapper">
+      
+        <h1>Currency exchange application</h1>
+        
+        <select name="currency_to_convert" id="select_currency">
+            <option>Select currency</option>
+        </select>
+        
+        <select name="saved_currencies" id="saved_currencies">
+            <option>Latest saved currencies</option>
+        </select>
+        
+        <div class="inline2">
+            <p> 
+                <div>1 </div> 
+                <div id="first_curr_key">EUR</div> = 
+                <div id="second_curr_rate_to_eur">1</div>
+                EUR
+            </p>
+       
+        </div>
+        
+        <div class="inline">
+            <p>Quantity: <input id="qty" type="number"/></p> 
+            <p id="selected_currency_key">Not selected</p>
+        </div>
+        <p>
+            Value: <input id="qty_value" type="text" readonly> EUR
+        </p>
+        
+        <div class="countdown" >
+            <p>Update in:</p>
+            <p id="countdown">10:00</p>
+        </div>
+        
+        <div class="inline">
+            <p>Updated at: </p>
+            <p id="updated_at"></p> <br>
+            <button type="button" id="update_rates_button">Update rates</button>
+            
+        </div>
+        
+    </div>
+      
+  <script src="./main_js.js" type="text/javascript"></script>
+
+</body>
+</html>

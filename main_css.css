@@ -1,0 +1,19 @@
+.countdown p{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.inline p{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.inline2 div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#wrapper{
+    margin: auto;
+    width: 50%;
+}
