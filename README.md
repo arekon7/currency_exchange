@@ -13,5 +13,5 @@ Functionality:
 
 For more information read Task_description.pdf and README.TXT
 
-If executing statically use Mozilla FireFox browser
+If executing statically use Mozilla FireFox browser;
 Chrome not support cookies if executing statically form PC (not from server), so application will work incorrectly.
